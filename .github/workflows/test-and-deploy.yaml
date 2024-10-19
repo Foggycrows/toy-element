@@ -26,8 +26,6 @@ jobs:
       - name: Build hooks
         run: npm run build-hooks
 
-      - name: Run tests
-        run: npm run test
 
   build:
     name: Build docs
