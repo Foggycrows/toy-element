@@ -5,11 +5,13 @@
   "type": "module",
   "main": "index.md",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build"
+    "dev": "vitepress dev ./",
+    "build": "vitepress build ./"
   },
   "devDependencies": {
     "@vitepress-demo-preview/component": "^2.3.2",
-    "@vitepress-demo-preview/plugin": "^1.2.3"
+    "@vitepress-demo-preview/plugin": "^1.2.3",
+    "vitepress":"1.0.0-rc.44"
   }
+
 }
