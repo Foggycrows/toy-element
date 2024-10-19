@@ -5,8 +5,8 @@
   "type": "module",
   "main": "index.md",
   "scripts": {
-    "dev": "vitepress dev ./",
-    "build": "vitepress build ./"
+    "dev": "vitepress dev",
+    "build": "vitepress build"
   },
   "devDependencies": {
     "@vitepress-demo-preview/component": "^2.3.2",
