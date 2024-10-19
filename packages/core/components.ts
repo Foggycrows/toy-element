@@ -1,4 +1,48 @@
-import { MyButton } from '@toy-element/components'
-import type { Plugin } from 'vue'
+import {
+  ErButton,
+  ErButtonGroup,
+  ErCollapse,
+  ErCollapseItem,
+  ErIcon,
+  ErDropdown,
+  ErDropdownItem,
+  ErTooltip,
+  ErMessage,
+  ErSwitch,
+  ErInput,
+  ErSelect,
+  ErOption,
+  ErForm,
+  ErFormItem,
+  ErAlert,
+  ErNotification,
+  ErLoading,
+  ErPopconfirm,
+  ErMessageBox,
+  ErConfigProvider
+} from "@toy-element/components";
+import type { Plugin } from "vue";
 
-export default [ MyButton ] as Plugin[]
+export default [
+  ErButton,
+  ErButtonGroup,
+  ErCollapse,
+  ErCollapseItem,
+  ErIcon,
+  ErDropdown,
+  ErDropdownItem,
+  ErTooltip,
+  ErMessage,
+  ErInput,
+  ErSwitch,
+  ErSelect,
+  ErOption,
+  ErForm,
+  ErFormItem,
+  ErAlert,
+  ErNotification,
+  ErLoading,
+  ErPopconfirm,
+  ErMessageBox,
+  ErConfigProvider
+] as Plugin[];

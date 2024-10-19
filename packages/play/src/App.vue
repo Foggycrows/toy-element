@@ -1,21 +1,21 @@
 <script setup lang="ts">
+import { ErButton, ErPopconfirm } from 'toy-element';
 </script>
 
 <template>
-  <my-button />
+  <er-popconfirm title="title">
+    <template #default>
+      <er-button>click me</er-button>
+    </template>
+    <template #reference>
+      <er-button>reference</er-button>
+    </template>
+  </er-popconfirm>
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+button {
+  width: 200px;
+  height: 200px;
 }
 </style>
